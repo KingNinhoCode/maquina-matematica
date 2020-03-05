@@ -31,8 +31,13 @@ body {
 }
 
 #apagar {
-	padding: 10px;
 	background: #E05A5A;
+	padding: 10px;
+}
+
+#clear {
+	background: #BC1919;
+	padding: 10px;
 }
 
 .teclado {
