@@ -1,0 +1,101 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculadora {
+	width: 300px;
+	height: 300px;
+	background: #cccccc;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tela {
+	width: 90%;
+	height: 20%;
+	background: #ABC1B1;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.tela p {
+	margin-right: 10px;
+	font-size: 2rem;
+}
+
+.teclado {
+	width: 90%;
+	height: 60%;
+	background: #dadada;
+	display: grid;
+	grid-template-areas:
+	 					'1 2 3 -'
+						'4 5 6 *'
+						'7 8 9 /'
+						'0 0 0 +';
+}
+
+.numero, .operador, #igual {
+	box-sizing: border-box;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #C9C7C7;
+}
+
+.numero:nth-child(1) {
+	grid-area: 1;
+}
+
+.numero:nth-child(2) {
+	grid-area: 1 / 2;
+}
+
+.numero:nth-child(3) {
+	grid-area: 1 / 3;
+}
+
+.numero:nth-child(4) {
+	grid-area: 2 / 1;
+}
+
+.numero:nth-child(5) {
+	grid-area: 2 / 2;
+}
+
+.numero:nth-child(6) {
+	grid-area: 2 / 3;
+}
+
+.numero:nth-child(7) {
+	grid-area: 3 / 1;
+}
+
+.numero:nth-child(8) {
+	grid-area: 3 / 2;
+}
+
+.numero:nth-child(9) {
+	grid-area: 3 / 3;
+}
+
+.numero:nth-child(10) {
+	grid-column: 1 / 3;
+	grid-row: 4 / 4;
+}
+
+.operador:nth-child(11) {
+	grid-area: 4 / 4;
+}
+
+#igual {
+	grid-area: 4 / 3;
+}
