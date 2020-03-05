@@ -30,6 +30,11 @@ body {
 	font-size: 2rem;
 }
 
+#apagar {
+	padding: 10px;
+	background: #E05A5A;
+}
+
 .teclado {
 	width: 90%;
 	height: 60%;
