@@ -11,12 +11,9 @@ console.log(operadores)
 
 for (let i = 0; i < teclasOperadores.length; i++) {
 	teclasOperadores[i].addEventListener("click", function() {
-		memoria = tela.textContent;
 
 		operacao = operadores[i];
 
-		console.log(operacao)
-
-		tela.textContent = "";
+		tela.textContent = tela.textContent + operacao;
 	})
 }
