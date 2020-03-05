@@ -9,6 +9,7 @@ Esse projeto tem o objetivo de treinar habididades basicas de programação fron
   <li>Adicionar botão de apagar</li>
   <li>Resolver bug do "infinity" e "NaN"</li>
   <li>Historico de operações por sessão</li>
+  <li>Robos Gigantes em algum lugar</li>
 </ul>
 
 # Deadline
