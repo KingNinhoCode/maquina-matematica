@@ -1,7 +1,7 @@
 # maquina-matematica
 Uma ideia original e inovadora de um software capaz de realizar operações matematicas feita com logica em js vanilla--
 
-Esse projeto tem o objetivo de treinar habididades basicas de programação front e o trbalho em equipe com base no github.
+Esse projeto tem o objetivo de treinar habididades basicas de programação front e o trabalho em equipe usando o github.
 
 # Lista de tarefas
 
@@ -10,3 +10,6 @@ Esse projeto tem o objetivo de treinar habididades basicas de programação fron
   <li>Resolver bug do "infinity" e "NaN"</li>
   <li>Historico de operações por sessão</li>
 </ul>
+
+# Deadline
+31/03/2020
