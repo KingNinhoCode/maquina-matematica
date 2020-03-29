@@ -15,7 +15,8 @@ for (let i = 0; i < teclasOperadores.length; i++) {
 	teclasOperadores[i].addEventListener("click", function() {
 
 		//Impede digitar operadores duplicados
-		if (!/\d+[+-/*]$/.test(tela.textContent)) {
+		if (!/\d+[+-/]$/.test(tela.textContent) && !/\d+\*\*/.test(tela.textContent)) {
+
 			tela.textContent = tela.textContent + operadores[i];
 			if (modo == true) {modo = false}
 		}
