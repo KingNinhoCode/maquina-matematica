@@ -1,11 +1,10 @@
 body {
 	height: 100vh;
 	display: flex;
-	align-items: center;
 }
 
 .calculadora {
-	width: 50vw;
+	width: 40vw;
 	height: 100vh;
 	background: #cccccc;
 	border: 1px solid black;
