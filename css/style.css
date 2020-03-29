@@ -1,13 +1,12 @@
 body {
 	height: 100vh;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 
 .calculadora {
-	width: 300px;
-	height: 300px;
+	width: 50vw;
+	height: 100vh;
 	background: #cccccc;
 	border: 1px solid black;
 	display: flex;
@@ -30,13 +29,25 @@ body {
 	font-size: 2rem;
 }
 
+.funcoes {
+	display: grid;
+	width: 90%;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 5px;
+}
+
+.funcoes div {
+	text-align: center;
+}
+
+
 #apagar {
-	background: #E05A5A;
+	background: #967B7B;
 	padding: 10px;
 }
 
 #clear {
-	background: #BC1919;
+	background: #803939;
 	padding: 10px;
 }
 
