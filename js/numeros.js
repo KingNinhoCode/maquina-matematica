@@ -4,7 +4,7 @@ var memoria = "";
 
 var numeros = [];
 
-//Pega os valores numericos
+//Pega os valores do teclado
 var teclasNumeros = document.querySelectorAll('.numero')
 for (var i = 0; i < teclasNumeros.length; i++) {
 	var teclaNumero = teclasNumeros[i];
@@ -17,7 +17,12 @@ for (var i = 0; i < teclasNumeros.length; i++) {
 for (let i = 0; i <= 9; i++) {
 	teclasNumeros[i].addEventListener("click", function() {
 		if (tela.textContent.length < 8) {
-			tela.textContent = tela.textContent + numeros[i]
+			if (modo == false) {
+				tela.textContent = tela.textContent + numeros[i]
+			} else {
+				tela.textContent = numeros[i]
+				modo = false;
+			}
 		}
 	})
 }

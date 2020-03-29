@@ -1,9 +1,12 @@
 var igual = document.querySelector("#igual");
-let resultado = "0";
+var modo = false;
+
 
 igual.addEventListener("click", function() {
 
-	var resultado = eval(tela.textContent)
+	let resultado = eval(tela.textContent)
 	
 	tela.textContent = resultado;
+
+	modo = true;
 })
