@@ -1,6 +1,6 @@
 <h1>maquina-matematica</h1>
 
- Bem vindo, caso esteja confuso de perguntado do que se trata esse repositorio não precisa se preocupar, apesar de ser um projeto a frente de seu tempo farei esforços para explicar da melhor forma possivel. A maquina-matematica (ainda estou procurando por um nome melhor) trata-se de uma ideia original e inovadora de um software capaz de realizar operações matematicas feito com o framework vanilla.js--
+ Bem vindo, caso esteja confuso se perguntado do que se trata esse repositorio, não precisa mais se preocupar, apesar de ser um projeto a frente de seu tempo farei esforços para explicar da melhor forma possivel. A maquina-matematica (ainda estou procurando por um nome melhor) trata-se de uma ideia original e inovadora de um software capaz de realizar operações matematicas feito com o framework vanilla.js--
 
 <h2>Conheça as <i>features</i> do Projeto:</h2>
 
