@@ -21,6 +21,6 @@
   <li>Historico de operações por sessão</li>
   <li>Robos Gigantes em algum lugar</li>
 </ul>
-
-# Deadline
-31/03/2020
+<hr>
+<h3>Filtro de Seriedade</h3>
+ Uma calculadora feita com javascript. Desculpe desperdiçar seu tempo.
